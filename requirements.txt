@@ -1,4 +1,9 @@
-Flask==2.3.2
-pandas==2.2.2
-pytest==7.4.2
-gunicorn==20.1.0
+Flask==3.0.3
+pandas==2.2.3
+gunicorn==23.0.0
+pytest==8.3.3
+
+# Build tools (prevent metadata-generation-failed errors)
+pip>=25.2
+setuptools>=70.0.0
+wheel
