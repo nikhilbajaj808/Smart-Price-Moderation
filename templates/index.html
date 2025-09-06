@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Agents Demo</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="title">Smart Price & Moderation</h1>
+      <p class="subtitle">Get a suggested price range and auto-moderate chat messages.</p>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section class="card">
+      <h2>Price Suggestor</h2>
+      <form id="price-form" class="form">
+        <label>Title 
+          <input name="title" type="text" placeholder="e.g. iPhone 11">
+        </label>
+        <label>Category 
+          <input name="category" type="text" placeholder="mobile">
+        </label>
+        <label>Brand 
+          <input name="brand" type="text" placeholder="Apple">
+        </label>
+        <label>Condition 
+          <input name="condition" type="text" placeholder="Good">
+        </label>
+        <label>Age (months) 
+          <input name="age_months" type="number" value="12">
+        </label>
+        <label>Asking price (optional) 
+          <input name="asking_price" type="number">
+        </label>
+        <div class="actions">
+          <button type="submit" class="btn">Suggest Price</button>
+        </div>
+      </form>
+      <div id="price-result" class="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>Chat Moderation</h2>
+      <form id="mod-form" class="form">
+        <label>Message 
+          <textarea name="message" placeholder="Type a chat message..."></textarea>
+        </label>
+        <div class="actions">
+          <button class="btn" type="submit">Moderate</button>
+        </div>
+      </form>
+      <div id="mod-result" class="result"></div>
+    </section>
+  </main>
+
+  <footer class="container foot">
+    <small>© 2025 — Resellpur, All Rights Reserved.</small>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
