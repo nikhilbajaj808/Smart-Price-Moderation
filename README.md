@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Resellpur - AI Agents (Price Suggestor + Chat Moderation)
 
 This is a complete, ready-to-run Flask project implementing two agents for a second-hand marketplace:
@@ -102,3 +103,6 @@ If you want, I can now:
 - Walk through specific files and explain the logic.
 - Extend the UI with extra pages or add authentication.
 - Connect to a real LLM provider (OpenAI / Hugging Face) if you provide API keys.
+=======
+# Smart-Price-Moderation
+>>>>>>> 88291c1796cfc26b65ef7279193c27ccda05189d
